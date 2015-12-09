@@ -23,6 +23,25 @@
     	   <p><a href="Erika.html" style="text-decoration:none;"><strong>erika's [net]mento</strong></a></p>
     	</div>
     <div style="clear: both;">
+<script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+<script src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+
+<script>
+$( ".floatleft" ).hover(
+  function() {
+    $( ".floatright" ).css( "opacity", "0.3"  );
+  }, function() {
+    $( ".floatright" ).css( "opacity", "1" );
+  }
+);
+$( ".floatright" ).hover(
+  function() {
+    $( ".floatleft" ).css( "opacity", "0.3"  );
+  }, function() {
+    $( ".floatleft" ).css( "opacity", "1" );
+  }
+);
+
 </div>
 </body>
 </html>
