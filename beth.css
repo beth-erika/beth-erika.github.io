@@ -1,0 +1,18 @@
+header {
+	font-size: 35px;
+	text-align: center;
+	padding: 9px;
+    background: url("branches.jpg");
+    }
+
+h1 {
+	color: black;
+	font-family: 'Avant Garde', Avant garde, 'Century Gothic', CenturyGothic, AppleGothic, sans-serif;
+}
+
+ article{text-align: center; font-family: 'Avant Garde', Avant garde, 'Century Gothic', CenturyGothic, AppleGothic, sans-serif}
+
+body {
+	background-color: #4f9678;
+}
+
